@@ -44,6 +44,32 @@ body{
     color: black;
 }
 
+/* banner style here */
+.banner{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-left{
+    display: block;
+    align-content:  end;
+}
+.banner-titel{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.style{
+    color: #E95A08;
+}
+.banner-description{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #8987A1;
+}
+.banner-right img{
+    display: block;
+    align-content:  end;
+}
 /* small device media query */
 
 @media (max-width: 576px) {
@@ -60,5 +86,20 @@ body{
     .brand{
         margin-left: 5px;
     }
+    /* banner responsive */
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-right img{
+        width: 100%;
+    }
+    .banner-left{
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .banner-titel{
+    font-size: 3rem;
+    font-weight: bold;
+}
     
 }

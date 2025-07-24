@@ -314,40 +314,39 @@ footer{
     font-size: 3rem;
     font-weight: bold;
     color: white;
+   margin-bottom: 30px;
    margin-left: 120px;
-   padding-bottom: 40px;
-    
-}
-input{
-    margin: 0;
-    padding: 0;
+   
     
 }
 
-input{
-    
+.inp-btn{
+   margin-left: 250px;
+   padding-top: 120px;
+   }
+   .gap{
+    display: flex;
+   }
+
+.input{
+    display: inline;
     width: 600px;
     height: 50px;
     padding-left: 15px;
     border: none;
+    margin: 0;
     
 }
-button{
-    /* position: absolute;
-    top: 81%;
-    left: 61%; */
+.button{
+   
     width: 180px;
-    height: 53px;
+    height: 50px;
     font-weight: bold;
     color: white;
     border: none;
     background-color: #E95A08;
 }
-.inp-btn{
-    position: relative;
-   margin-left: 250px;
-   padding-top: 120px;
-}
+
 /* footer links style */
 .footer-links-section{
     display: flex;
@@ -525,17 +524,20 @@ text-decoration: none;
     gap: 10px;
     flex-wrap: wrap;
 }
-input{
-    width: 60%;
+.input{
+    width: 70%;
     height: 45px;
     background-color: white;
 }
-button{
-    /* position: absolute;
-    top: 58%;
-    width: 30%; */
-    width: 25%;
+.button{
+   
+    width: 35%;
     height: 45px;
+}
+.gap{
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
 }
 /* footer links responsive */
 .footer-links-section{

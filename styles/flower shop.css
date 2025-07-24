@@ -357,7 +357,11 @@ footer {
   text-decoration: none;
 }
 .links-4-img {
-  padding-left: 20px;
+  padding-left: 25px;
+}
+.links-4-1{
+    padding-left: 20px;
+    padding-bottom: 8px;
 }
 
 /* small device media query */
